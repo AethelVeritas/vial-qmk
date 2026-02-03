@@ -8,17 +8,19 @@
         "bootmagic": true,
         "extrakey": true,
         "mousekey": true,
+        "encoder": true,
+        "oled": true,
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP11", "GP10", "GP9"]
-        "rows": ["GP4", "GP3", "GP2", "GP1"]
+        "cols": ["GP3", "GP4", "GP2"],
+        "rows": ["GP29", "GP28", "GP27", "GP26"]
     },
     "processor": "RP2040",
-    "url": "",
+    "url": " ",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
+        "pid": "0x0333",
         "vid": "0xFEED"
     },
     "layouts": {
